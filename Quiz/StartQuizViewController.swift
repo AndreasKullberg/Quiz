@@ -40,6 +40,7 @@ class StartQuizViewController: UIViewController, rightAnswersProtocol {
             startQuizOutlet.setTitle("Play Again", for: .normal)
             showResultLabel.text = "Right answers: \(rightAnswers) of \(questionCount)"
         }
+       
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -49,9 +50,7 @@ class StartQuizViewController: UIViewController, rightAnswersProtocol {
                 let destinationVC = segue.destination as! PlayGameViewController
                 destinationVC.quizName = quizName
                 destinationVC.delegate = self
-            
-            
-            
+        
         }
     }
 

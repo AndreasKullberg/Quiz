@@ -90,7 +90,7 @@ class CreateQuizViewController: UIViewController {
             quizNameDictionary = ["name": quizName]
         
        
-        db.collection("Quizes").document(quizName).setData(quizNameDictionary) { err in
+        db.collection("Quizzes").document(quizName).setData(quizNameDictionary) { err in
             if let err = err {
                 print("Error writing document: \(err)")
             } else {

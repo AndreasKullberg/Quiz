@@ -10,7 +10,7 @@
 		79D02F6702A7F65C095FA885 /* Pods_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71400AECF800B20CCFC21B98 /* Pods_Quiz.framework */; };
 		82D07EF21D0AC3D58D691EEF /* Pods_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23A6FD0F374A9FFFB63E936 /* Pods_QuizTests.framework */; };
 		8B1AB890225365FC006A2FF5 /* AppLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1AB88F225365FC006A2FF5 /* AppLayout.swift */; };
-		8B75A13E2243F2AF00B41317 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B75A13D2243F2AF00B41317 /* GoogleService-Info.plist */; };
+		8B28C8792294350200730041 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B28C8782294350200730041 /* GoogleService-Info.plist */; };
 		8B75A1422244EFC500B41317 /* CreateQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B75A1412244EFC500B41317 /* CreateQuizViewController.swift */; };
 		8B75A144224502BF00B41317 /* QuizTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B75A143224502BF00B41317 /* QuizTableViewController.swift */; };
 		8B75A1462245035300B41317 /* QuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B75A1452245035300B41317 /* QuizTableViewCell.swift */; };
@@ -55,7 +55,7 @@
 		6CF2250920185062D8CA9396 /* Pods_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71400AECF800B20CCFC21B98 /* Pods_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1AB88F225365FC006A2FF5 /* AppLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLayout.swift; sourceTree = "<group>"; };
-		8B75A13D2243F2AF00B41317 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B28C8782294350200730041 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8B75A1412244EFC500B41317 /* CreateQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQuizViewController.swift; sourceTree = "<group>"; };
 		8B75A143224502BF00B41317 /* QuizTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewController.swift; sourceTree = "<group>"; };
 		8B75A1452245035300B41317 /* QuizTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewCell.swift; sourceTree = "<group>"; };
@@ -165,10 +165,10 @@
 				8BE27A1D224039A80049CEFA /* Info.plist */,
 				8BE27A3F224039EE0049CEFA /* Question.swift */,
 				8BE27A4122403D9A0049CEFA /* Quiz.swift */,
-				8B75A13D2243F2AF00B41317 /* GoogleService-Info.plist */,
 				8B75A1412244EFC500B41317 /* CreateQuizViewController.swift */,
 				8B75A143224502BF00B41317 /* QuizTableViewController.swift */,
 				8B75A1452245035300B41317 /* QuizTableViewCell.swift */,
+				8B28C8782294350200730041 /* GoogleService-Info.plist */,
 				8B75A1472245298700B41317 /* PlayGameViewController.swift */,
 				8B9D733D224B888000E365B8 /* StartQuizViewController.swift */,
 				8B9D733F224BD3C600E365B8 /* PickPhotoViewController.swift */,
@@ -304,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BE27A1C224039A80049CEFA /* LaunchScreen.storyboard in Resources */,
-				8B75A13E2243F2AF00B41317 /* GoogleService-Info.plist in Resources */,
+				8B28C8792294350200730041 /* GoogleService-Info.plist in Resources */,
 				8BE27A19224039A80049CEFA /* Assets.xcassets in Resources */,
 				8BE27A17224039A60049CEFA /* Main.storyboard in Resources */,
 			);

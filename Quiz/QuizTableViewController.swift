@@ -14,8 +14,8 @@ class QuizTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Quizes"
-        
+        self.navigationItem.title = "Quizzes"
+       
 
     }
     
@@ -30,7 +30,7 @@ class QuizTableViewController: UITableViewController {
     fileprivate func retrieveQuizes() {
         let db = Firestore.firestore()
         
-        db.collection("Quizes").getDocuments() { (querySnapshot, err) in
+        db.collection("Quizzes").getDocuments() { (querySnapshot, err) in
             if let err = err {
                 print("Error getting documents: \(err)")
             } else {
@@ -67,6 +67,7 @@ class QuizTableViewController: UITableViewController {
         
 
         return cell
+        
     }
     
     
