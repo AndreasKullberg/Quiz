@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1063444936521-t05egal402e8khj3q0n5qcr8topasq6o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1063444936521-t05egal402e8khj3q0n5qcr8topasq6o</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBNDO849o7u19KERjiPNVAp66bCwvK6WRk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1063444936521</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Andreas.Quiz</string>
+	<key>PROJECT_ID</key>
+	<string>createquiz-4946f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>createquiz-4946f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1063444936521:ios:8a574a4042c04a1b</string>
+	<key>DATABASE_URL</key>
+	<string>https://createquiz-4946f.firebaseio.com</string>
+</dict>
+</plist>
